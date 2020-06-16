@@ -1,0 +1,528 @@
+/*By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com*/
+
+/* ==========================================================================
+   MEDIA QUERIES for landscape
+   ==========================================================================*/
+
+@media only screen and (max-width: 640px) and (max-height: 360px) and (orientation: landscape),
+(max-width: 731px) and (max-height: 414px) and (orientation: landscape),
+(max-width: 736px) and (max-height: 414px) and (orientation: landscape),
+(max-width: 823px) and (max-height: 411px) and (orientation: landscape) {
+
+    .br-hidden,
+    .nav-social-media-container,
+    .nav-logo-icon {
+        display: none !important;
+    }
+
+    .home-logo {
+        width: 25rem;
+    }
+
+    .home-txt {
+        font-size: 1.7rem;
+    }
+
+    .home-txt-colorful {
+        font-size: 1.9rem;
+    }
+
+    .projects-img {
+        width: 30rem;
+    }
+
+    .home-icon {
+        width: 1.9rem;
+    }
+
+    .home-title {
+        font-size: 1.9rem;
+    }
+
+    .homelogo-hometxt-wrapper {
+        height: 75%;
+    }
+
+    .home-wrapper {
+        height: 95vh;
+        min-height: -webkit-fill-available 95vh;
+    }
+}
+
+/* ==========================================================================
+   MEDIA QUERIES for min-width 399px and 480px
+   ==========================================================================*/
+
+@media only screen and (max-width: 399px) {
+
+    .the-team-icons-wrapper {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+
+    .description-title {
+        font-size: 2.3rem;
+    }
+
+    .description-title::first-letter {
+        font-size: 3.5rem;
+    }
+
+    .home-logo {
+        height: auto;
+        width: 30rem;
+    }
+}
+
+/* ==========================================================================
+   MEDIA QUERIES for min-width 600px
+   ==========================================================================*/
+
+@media only screen and (min-width: 600px) {
+
+    .home-logo {
+        width: 40rem;
+    }
+
+    .home-txt-colorful {
+        font-size: 2.7rem;
+    }
+
+    .projects-img {
+        width: 65vw;
+        width: -webkit-fill-available 65vw;
+    }
+
+    .footer-wrapper {
+        flex-flow: row wrap;
+    }
+
+    .footer-email-wrapper,
+    .footer-findus-wrapper {
+        width: 25%;
+        margin-top: 4rem;
+    }
+
+    .footer-andhere-wrapper {
+        width: 100%;
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        align-content: center;
+        margin-top: 4rem;
+        flex-flow: column wrap;
+    }
+
+    .footer-titleicon-wrapper {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .footer-title {
+        font-size: 1.8rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-icons-wrapper {
+        width: 50%;
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        flex-flow: row wrap;
+        text-align: center;
+    }
+
+    .social-media {
+        font-size: 4rem;
+    }
+}
+
+/* ==========================================================================
+   MEDIA QUERIES for min-width 650px
+   ==========================================================================*/
+
+@media only screen and (min-width: 650px) {
+
+    .home-logo {
+        width: 45rem;
+    }
+
+    .home-txt {
+        font-size: 3rem;
+    }
+
+    .home-txt-colorful {
+        font-size: 3.1rem;
+    }
+}
+
+/* ==========================================================================
+   MEDIA QUERIES for min-width 700px
+   ==========================================================================*/
+
+@media only screen and (min-width: 700px) {
+
+    .home-logo {
+        width: 50rem;
+    }
+
+    .home-txt {
+        font-size: 3.3rem;
+    }
+
+    .home-txt-colorful {
+        font-size: 3.4rem;
+    }
+}
+
+/* ==========================================================================
+   MEDIA QUERIES for min-width 768px
+   ==========================================================================*/
+
+@media only screen and (min-width: 768px) {
+
+    project-entire-wrapper {
+        padding-top: 1rem;
+    }
+
+    .description {
+        padding: 5%;
+    }
+
+    .arrow-right {
+        padding-left: 7rem;
+    }
+
+    .homelogo-hometxt-wrapper {
+        text-align: center;
+    }
+
+    .home-logo,
+    .home-txt {
+        top: 3rem;
+        position: relative;
+    }
+
+    .home-logo {
+        margin: 0 auto;
+        width: 40rem;
+    }
+
+    .home-txt {
+        margin-top: 4rem;
+        font-size: 2.5rem;
+    }
+
+    .home-txt-colorful {
+        font-size: 2.7rem;
+    }
+
+    .br-hidden {
+        display: none;
+    }
+
+    .projects-img {
+        width: 40vw;
+        width: -webkit-fill-available 40vw;
+    }
+
+    .projects-store-wrapper img {
+        height: 3.5rem;
+    }
+
+    .about-top {
+        padding: 3rem 22rem 0 22rem;
+    }
+
+    .the-team-wrapper .description {
+        width: 45vw;
+        width: -webkit-fill-available 45vw;
+    }
+
+    .the-team-img {
+        width: 30rem;
+    }
+
+    .footer-andhere-wrapper {
+        width: 25%;
+    }
+
+    .footer-title {
+        font-size: 1.8rem;
+    }
+
+    .footer-icons-wrapper {
+        width: auto;
+        height: auto;
+    }
+
+    .social-media {
+        font-size: 4rem;
+    }
+}
+
+/* ==========================================================================
+   MEDIA QUERIES for min-width 800px
+   ==========================================================================*/
+
+@media only screen and (min-width: 813px) {
+
+    html {
+        overflow: auto;
+    }
+
+    .description {
+        margin: 0;
+        padding: 2%;
+    }
+
+    .hamburger-open-icon,
+    .hamburger-close-icon,
+    .nav-logo-icon {
+        display: none !important;
+    }
+
+    .open-nav {
+        visibility: visible;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        z-index: 99999;
+    }
+
+    .nav-container {
+        width: 100vw;
+        width: -webkit-fill-available 100vw;
+        height: 8rem;
+        visibility: visible;
+        background: rgb(29, 29, 29);
+        border-bottom: gray 0.5px solid;
+    }
+
+    nav {
+        width: 100vw;
+        width: -webkit-fill-available 100vw;
+        height: 5rem;
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        flex-flow: row-reverse wrap;
+        justify-content: space-between;
+        font-size: 1.6rem;
+    }
+
+    .nav-list-wrapper,
+    .nav-social-media-container {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        width: auto;
+        justify-content: space-around;
+        align-items: center;
+        -webkit-align-items: center;
+        margin: 2rem 0 0 0;
+        padding: 0;
+    }
+
+    ul li a {
+        margin-right: 5rem;
+    }
+
+    nav ul li a:hover {
+        text-decoration: underline rgb(255, 166, 0);
+    }
+
+    nav ul li a:active {
+        color: rgb(255, 166, 0);
+    }
+
+    .nav-social-media-container {
+        width: auto;
+        margin-left: 2rem;
+        position: relative;
+        bottom: 0.8rem;
+    }
+
+    .nav-social-media-container a {
+        margin: 0 1.5rem 0 0;
+    }
+
+    .br-hidden {
+        display: none;
+    }
+
+    .home-wrapper {
+        width: 100%;
+        height: 85vh;
+        height: -webkit-fill-available 85vh;
+    }
+
+    .homelogo-hometxt-wrapper {
+        height: 75vh;
+        height: -webkit-fill-available 75vh;
+    }
+
+    .home-logo {
+        width: 60rem;
+    }
+
+    .home-logo,
+    .home-txt {
+        position: relative;
+        top: 5rem;
+    }
+
+    .home-txt {
+        font-size: 2.3rem;
+    }
+
+    .home-txt-colorful {
+        font-size: 2.5rem;
+    }
+
+    .home-title-titleicon-wrapper {
+        height: 20vh;
+        height: -webkit-fill-available 20vh;
+    }
+
+    .projects-title-top {
+        order: 1;
+    }
+
+    .projects-title {
+        order: 2;
+        display: none;
+    }
+
+    .projects-img {
+        width: 25vw;
+        width: -webkit-fill-available 25vw;
+    }
+
+    .about-description {
+        width: 33rem;
+    }
+
+    .about-description-wrapper {
+        width: 20%;
+    }
+
+    .about-under-description-wrapper {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .tech-wrapper {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        flex-flow: column wrap;
+        align-items: center;
+        -webkit-align-items: center;
+    }
+
+    .tech-descriptiontitle-wrapper {
+        width: 33rem;
+    }
+
+    .the-team-wrapper {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .the-team-img {
+        width: 20rem;
+    }
+
+    .the-team-icons-wrapper a {
+        font-size: 3.5rem;
+    }
+
+    .the-team-wrapper-bg1,
+    .the-team-wrapper-bg2 {
+        width: 40%;
+    }
+
+    .the-team-wrapper-bg1 {
+        order: 1;
+    }
+
+    .the-team-icontitle-wrapper {
+        width: 20%;
+        order: 2;
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        text-align: center;
+    }
+
+    .the-team-icontitle-wrapper .title {
+        line-height: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .the-team-wrapper-bg2 {
+        order: 3;
+        padding-top: 0;
+    }
+
+    footer {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .footer-email-wrapper,
+    .footer-findus-wrapper,
+    .footer-andhere-wrapper {
+        width: 10%;
+    }
+
+    .footer-icons-wrapper {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        flex-flow: row;
+        width: 20%;
+    }
+
+    .social-media {
+        font-size: 3rem;
+    }
+}
+
+/* ==========================================================================
+   MEDIA QUERIES for widescreen
+   ==========================================================================*/
+
+@media only screen and (min-width: 2600px) {
+
+    .home-txt {
+        font-size: 2.5rem;
+    }
+
+    .home-txt-colorful {
+        font-size: 2.9rem;
+    }
+
+    .the-team-wrapper .description {
+        width: 70rem;
+    }
+}
