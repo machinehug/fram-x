@@ -1,3 +1,5 @@
+//Victoria Pettersen > github.com/machinehug & machinehug.com
+
 const navContainer = document.querySelector(".nav-container");
 const body = document.body;
 
